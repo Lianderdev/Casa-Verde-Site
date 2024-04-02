@@ -1,0 +1,38 @@
+header{
+    width: 1203px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 177px;
+    height: 42px;
+    margin-bottom: 10px;
+}
+
+.menu-navegacao{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu-navegacao li a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;   
+    color: var(--text-color);
+    display: flex;
+    gap: 10px;
+}
+
+.img-irregular{
+    position: absolute;
+    top: 0;
+    right: -220px;
+    z-index: -1;
+}
