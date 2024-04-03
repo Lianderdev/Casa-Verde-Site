@@ -1,0 +1,54 @@
+.home-info{
+    width: 50%;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-info .home-sub-titulo{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26.82px;
+    text-align: left;
+    color: rgba(32, 32, 32, 1);
+}
+
+.home-info .home-titulo{
+    font-family: Elsie Swash Caps;
+    font-size: 82px;
+    font-weight: 900;
+    line-height: 94.46px;
+    text-align: left;
+}
+
+.home-info .home-descricao{
+    font-family: Montserrat;
+    padding: 0 110px 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(32, 32, 32, 1);
+}
+
+.input-button{
+    display: flex;
+    align-items: center;
+}
+
+.input-button input {
+    width: 390px;
+    height: 75px;
+    border: none;
+    background-color: gray;
+}
+
+.input-button button{
+    width: 195px;
+    height: 75px;
+    border: none;
+    background-color: #FFCB47;
+}
