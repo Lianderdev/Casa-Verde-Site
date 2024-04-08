@@ -1,0 +1,86 @@
+.depoimentos{
+    width: 1200px;
+    height: 570px;   
+    margin: auto;
+    margin-top: 200px;
+}
+
+.content-depoimentos{
+    display: flex; 
+}
+
+.content-depoimentos img{
+    box-shadow: -200px -100px 0px 4px var(--text-color-orange);
+}
+
+.info-depoimentos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+}
+
+.info-depoimentos h2{
+    font-family: Elsie Swash Caps;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 48.38px;
+    text-align: left;
+    color: var(--text-color-black);
+}
+
+.depoimento{
+    display: flex;
+    gap: 50px;
+}
+
+.depoimento i{
+    font-size: 90px;
+    color: var(--text-color-orange);
+}
+
+.depoimento p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: var(--text-color-gray);
+}
+
+.pessoal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 70px;
+}
+
+.pessoa p{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: left;
+    color: var(--text-color-black);
+}
+
+.pessoa span{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    color: var(--text-color-gray);
+
+}
+
+.setas{
+    display: flex;
+    gap: 30px;
+}

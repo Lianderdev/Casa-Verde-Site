@@ -1,12 +1,13 @@
 .home{
     display: flex;
     position: relative;
-    padding: 0 11%;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
 }
 
 .home-info{
-    width: 50%;
-    height: calc(100vh - 90px);
+    width: 44%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +29,7 @@
     font-weight: 900;
     line-height: 94.46px;
     text-align: left;
+    padding-right: 50px;
 }
 
 .home-info .home-descricao{
@@ -50,11 +52,11 @@
     position: absolute;
     padding: 20px;
     font-size: 23px;
-    color: #FFCB47;
+    color: var(--text-color-orange);
 }
 
 .input-button input {
-    width: 390px;
+    width: 500px;
     height: 75px;
     border: none;
     font-family: Montserrat;
@@ -80,14 +82,13 @@
     text-align: center;
     padding-left: 10px;
     color: white;
-    background-color: #FFCB47;
+    background-color: var(--text-color-orange);
 }
 
 .info-hero-img{
-    width: 50%;
     position: absolute;
     top: -100px;
-    right: 250px;
+    right: 100px;
     z-index: -1;
 }
 
